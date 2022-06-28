@@ -1,0 +1,59 @@
+html,
+body {
+  margin: 0;
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header {
+  padding: 0 0 30px 0;
+}
+
+.header select {
+  font-size: 1rem;
+}
+
+.slideshow {
+  flex: 1;
+  position: relative;
+  background-color: lightsteelblue;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  /* img is NOT visible if opacity = 0 */
+  opacity: 0;
+
+  /* how zoomed in/out should the img start off as */
+  transform: scale(0.5);
+
+  /* time it should take for img to fully show */
+  transition: all 0.9s ease-out;
+}
+
+/* 2nd to last element of slide class*/
+.slide:nth-last-child(2) {
+  /* img is visible if opacity = 1 */
+  opacity: 1;
+
+  /* below indicates how zoomed in img should be finally viewed bu person */
+  /* 1 - normal , 2 - twice zoomed in */
+  transform: scale(1.08);
+}
