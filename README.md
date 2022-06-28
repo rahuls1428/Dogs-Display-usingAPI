@@ -1,4 +1,4 @@
-# 🐶 Dogs Display Website (usingAPI)
+# 🐶 Dogs Display Website (using an API)
 &nbsp;&nbsp;&nbsp;&nbsp; It is a website that displays photos of a breed of dog of your choosing. The list of breeds are available as a drop-down menu and any one breed can be chosen. The website subsequently displays different photos of the chosen/particular breed of dog in a slideshow manner.
 
 ## About Infinite Dog Website
