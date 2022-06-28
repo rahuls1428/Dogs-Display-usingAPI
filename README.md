@@ -17,7 +17,7 @@ Check out the **Infinite Dog App** website here --> Demo: [Dogs Display WebSite]
 
 ## Tools Used
 
-This website uses basic HTML5 and CSS3 along with an API. An API is simply a medium to fetch or send data between interfaces. Let’s say you want to make an application that provides the user with some real-time data fetched from a server or maybe even allows you to modify or add data to some other endpoint. This is made possible by the API or the Application Programming Interface. In this project we use concepts of:
+This website uses basic HTML5 and CSS3 along with JavaScript that uses an API. An API is simply a medium to fetch or send data between interfaces. Let’s say you want to make an application that provides the user with some real-time data fetched from a server or maybe even allows you to modify or add data to some other endpoint. This is made possible by the API or the Application Programming Interface. In this project we use concepts of:
 1. a simple public API that requires no authentication and allows you to fetch some data by querying the API with GET requests.
 2. fetch() function - which is method in JavaScript and is used to request to the server and load the information on the webpages. The request can be of any APIs that return the data of the format JSON or XML. This method returns a promise. To learn more click [here](https://www.javascripttutorial.net/javascript-fetch-api/).
 3. async function is a function declared with the async keyword and the await keyword is permitted within it. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.
